@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f5f7fa;
+    color: #1f2937;
+}
+
+header {
+    background: #111827;
+    padding: 20px 8%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h2 {
+    color: #ff9900;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    padding: 80px 8%;
+    background: linear-gradient(135deg, #111827, #1e3a5f);
+    color: white;
+}
+
+.hero h1 {
+    font-size: 55px;
+    max-width: 750px;
+    margin: 15px 0;
+}
+
+.hero h1 span {
+    color: #ff9900;
+}
+
+.tag {
+    color: #ff9900;
+    font-weight: bold;
+}
+
+.description {
+    max-width: 650px;
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 14px 25px;
+    background: #ff9900;
+    color: #111827;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.section {
+    padding: 70px 8%;
+    text-align: center;
+}
+
+.section h2 {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.section-text {
+    max-width: 750px;
+    margin: auto;
+    line-height: 1.7;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    padding: 30px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+}
+
+.card h3 {
+    margin-bottom: 15px;
+    color: #ff9900;
+}
+
+.card p {
+    line-height: 1.6;
+}
+
+.dark-section {
+    background: #111827;
+    color: white;
+}
+
+.best-practices {
+    max-width: 700px;
+    margin: 30px auto;
+    text-align: left;
+}
+
+.best-practices p {
+    background: white;
+    margin: 12px 0;
+    padding: 15px 20px;
+    border-radius: 6px;
+    color: #1f2937;
+}
+
+footer {
+    background: #0b1120;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    nav ul {
+        gap: 15px;
+    }
+
+    .hero h1 {
+        font-size: 38px;
+    }
+}
