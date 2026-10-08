@@ -62,6 +62,9 @@ aws-cloud-security-project/
 ├── style.css
 └── README.md
 ```
+## Architecture
+
+![AWS Cloud Security Architecture](aws-architecture.png)
 
 ## 🚀 Deployment
 
