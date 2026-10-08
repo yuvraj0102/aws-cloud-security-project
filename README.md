@@ -67,6 +67,9 @@ aws-cloud-security-project/
 ![AWS Cloud Security Architecture](aws-architecture.png)
 
 ## 🚀 Deployment
+## Live Demo
+
+[Visit Live Website](https://yuvraj0102.github.io/aws-cloud-security-project/)
 
 The website is deployed using GitHub Pages.
 
